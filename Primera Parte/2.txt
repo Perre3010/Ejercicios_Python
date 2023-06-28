@@ -1,0 +1,14 @@
+""" 2. Elaborar un programa  que  convierta  un  numero decimal ingresado  por teclado a
+numero  binario, al final  deberá mostrar cual es su equivalencia"""
+
+num = int(input("Ingrese un valor para calcular su valor binario: "))
+numero = num
+modulos = []
+
+while num != 0:
+  modulo = num%2
+  cociente = num//2
+  modulos.append(modulo)
+  num = cociente
+modulos.reverse()
+print("El numero ",numero," en binario es ",modulos)

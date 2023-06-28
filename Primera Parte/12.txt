@@ -1,0 +1,6 @@
+"""12. Realiza un programa que  me calcule el  área  del  circulo, la  cual el usuario ingresa
+el  valor del  radio"""
+
+"""valor = int(input("ingrese el radio para calcular el diametro: "))
+area = 3.1415(valor**2)
+print("El area del circulo es: ",area)"""

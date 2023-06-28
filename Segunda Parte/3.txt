@@ -1,0 +1,9 @@
+""3. Calcular el promedio de 3 números ingresados por teclado y mostrar su resultado"""
+
+"""x = int(input("ingrese valor 1: "))
+y = int(input("ingrese valor 2: "))
+z = int(input("ingrese valor 3: "))
+
+pro = (x+y+z)/3
+
+print("El promedio es: ",pro)"""

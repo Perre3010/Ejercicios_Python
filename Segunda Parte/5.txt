@@ -1,0 +1,13 @@
+"""5. Elabora un programa que lea 3 números por  teclado y me los muestre  organizado de
+mayor a menor por ejemplo si ingreso 53, 10 Y 24 deberá mostrar, "los números
+ingresados  son  53, 10 Y 24 y organizados de forma descendente son  53, 24, 10"""
+
+"""list=[]
+for i in range(3):
+  num = int(input("Ingrese valor: "))
+  list.append(num)
+list.sort(reverse=True)
+
+print("Los números en orden descendente son:")
+for num in list:
+    print(num)"""

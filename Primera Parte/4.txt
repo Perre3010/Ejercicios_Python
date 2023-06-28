@@ -1,0 +1,13 @@
+"""Realiza un  programa que  convierta un  numero  decimal  a binario, octal y
+hexadecimal, al final  deberá mostrar cual es su resultado"""
+
+decimal = int(input("Ingresa un número decimal: "))
+
+binario = bin(decimal)[2:]
+octal = oct(decimal)[2:]
+hexadecimal = hex(decimal)[2:]
+
+print("Número decimal:", decimal)
+print("Número binario:", binario)
+print("Número octal:", octal)
+print("Número hexadecimal:", hexadecimal)
